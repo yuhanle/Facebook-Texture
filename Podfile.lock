@@ -1,6 +1,5 @@
 PODS:
-  - Masonry (1.0.2)
-  - MBProgressHUD (1.0.0)
+  - FPSCounter (2.1.0)
   - PINCache (3.0.1-beta.6):
     - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
     - PINCache/Core (= 3.0.1-beta.6)
@@ -8,7 +7,7 @@ PODS:
     - PINCache/Core
   - PINCache/Core (3.0.1-beta.6):
     - PINOperation (~> 1.1.0)
-  - PINOperation (1.1)
+  - PINOperation (1.1.1)
   - PINRemoteImage/Core (3.0.0-beta.13):
     - PINOperation
   - PINRemoteImage/iOS (3.0.0-beta.13):
@@ -25,18 +24,24 @@ PODS:
     - Texture/Core
 
 DEPENDENCIES:
-  - Masonry (~> 1.0.1)
-  - MBProgressHUD (~> 1.0.0)
-  - Texture (~> 2.6)
+  - FPSCounter (~> 2.1)
+  - Texture
+
+SPEC REPOS:
+  http://i.ti-link.com.cn/artifactory/api/pods/remote-pods:
+    - FPSCounter
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - Texture
 
 SPEC CHECKSUMS:
-  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
-  PINOperation: 7f042fa6df5b606deb4bd5997654cf7033d5be1d
-  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
-  Texture: 7249074582daf75e524e59df5428b66b8e8db0e4
+  FPSCounter: 21ba723e60700d69727b9f8c2de0daa3dae38918
+  PINCache: 23a829be7478ae2cdec85040138e3dc7ead4ffde
+  PINOperation: 4f7d7f95ae7ef90a643b3fc803c0e1c2cc80bf5e
+  PINRemoteImage: 1631ca6b40154f542c9c39a7e98c0c6f571020ea
+  Texture: 2a5d30ce71f348e72f2f1903957f0b154a5cbfc5
 
-PODFILE CHECKSUM: e3b9f377b282560efc85de1c477ebc6c071e44c8
+PODFILE CHECKSUM: 8f8ccba1bf5fff9d14e844895b25b465b818d33c
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
